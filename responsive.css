@@ -45,6 +45,14 @@
     .top-main-left{
     	z-index: 2;
     }
+    
+    .top-main-right img {
+        height: 200px;
+    }
+
+    .main-left img {
+        height: 200px;
+    }
 
     .main-body {
         display: grid;
