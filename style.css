@@ -346,8 +346,13 @@ footer p {
 }
 
 footer {
-    padding-top: 30px;
+    padding-top: 20px;
     padding-bottom: 20px;
+}
+
+footer .container {
+    border-top: 1px solid rgba(28, 28, 28, .3);
+    padding-top: 45px;
 }
 
 /* Ketik code Anda dibawah */
