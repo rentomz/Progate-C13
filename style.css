@@ -1,0 +1,358 @@
+/* Mulai code Anda dari baris terakhir */
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+div {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Montserrat";
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-family: "Montserrat";
+    font-size: 32px;
+}
+
+
+.container {
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.top-wrapper {
+    padding: 140px 0 100px 0;
+    background-image: url(img/backgorund.png);
+    background-size: cover;
+    color: white;
+    /* text-align: center; */
+}
+
+.top-main {
+    display: grid;
+    grid-template-columns: 40% auto;
+}
+
+.top-main-left {
+    margin-top: auto;
+    margin-bottom: auto;
+
+}
+
+.top-main-right img {
+    position: relative;
+    animation-name: example;
+    animation-duration: 2s;
+    /* animation-iteration-count: ; */
+    animation-direction: alternate;
+}
+
+@keyframes example {
+    0% {
+        /* background-color: red; */
+        left: 200px;
+        /* top: 200px; */
+    }
+
+
+
+    100% {
+        /* background-color: red; */
+        left: 0px;
+        top: 0px;
+    }
+}
+
+.top-main-right img {
+    height: 450px;
+
+}
+
+.top-wrapper h1 {
+    /* opacity: 0.7; */
+    font-size: 44px;
+    /* letter-spacing: 5px; */
+    margin-bottom: 4px;
+    color: #222222;
+}
+
+.top-wrapper span {
+    color: #152BFE;
+}
+
+.top-wrapper p {
+    opacity: 0.9;
+    margin-bottom: 3px;
+    line-height: 25px;
+    color: #222222;
+}
+
+.tombol-top {
+    margin-top: 60px;
+}
+
+.button-top {
+    background-color: #152BFE;
+    padding: 10px 25px 10px 25px;
+    border-radius: 20px;
+    color: white;
+
+
+}
+
+.btn-wrapper {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.btn-wrapper p {
+    margin: 10px 0;
+}
+
+.signup {
+    background-color: #239b76;
+}
+
+.facebook {
+    background-color: #3b5998;
+    margin-right: 10px;
+}
+
+.twitter {
+    background-color: #55acee;
+}
+
+.btn {
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
+.fa {
+    margin-right: 5px;
+}
+
+header {
+    height: 65px;
+    width: 100%;
+    /* background-color: rgba(34, 49, 52, 0.9); */
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    /* box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+}
+
+.logo {
+    width: 50px;
+    margin-top: 10px;
+}
+
+.namalogo {
+    margin-top: 10px;
+    margin-bottom: auto;
+}
+
+.header-left {
+    float: left;
+    display: inline-grid;
+    grid-template-columns: auto auto;
+}
+
+
+.header-right {
+    float: right;
+    margin-right: -25px;
+}
+
+.header-right a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: #222222;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+}
+
+.header-right a:hover::after {
+    /* background-color: rgba(255, 255, 255, 0.3); */
+    content: '';
+    display: block;
+    border-bottom: 2px solid #000;
+    width: 50%;
+    margin: auto;
+    margin-bottom: -20px;
+
+}
+
+
+
+.heading {
+    padding-top: 80px;
+    padding-bottom: 50px;
+    color: #5f5d60;
+}
+
+.heading h2 {
+    font-weight: normal;
+}
+
+.main-section {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.main-body {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.main-left img {
+    height: 400px;
+}
+
+.main-right {
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: right;
+}
+
+.main-right h2 {
+    margin-bottom: 20px;
+    font-size: 44px;
+    color: #222222;
+}
+
+.main-right p {
+    line-height: 28px;
+    opacity: 0.8;
+}
+
+.our {
+    margin-bottom: 50px;
+}
+
+.our h2 {
+    color: #222222;
+    font-size: 32px;
+}
+
+.our-special {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    margin-bottom: 80px;
+}
+
+.our-special img {
+    border-radius: 50%;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.our-special h4 {
+    margin-bottom: 10px;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.our-special p {
+    font-size: 16px;
+    opacity: 0.8;
+}
+
+.title-project {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.title-project h2 {
+    margin-bottom: 10px;
+    font-size: 42px;
+}
+
+.title-project p {
+    opacity: 0.8;
+}
+
+.latest-project {
+    display: grid;
+    grid-template-columns: 31% 31% 31%;
+    grid-column-gap: 40px;
+    grid-row-gap: 30px;
+    margin-bottom: 80px;
+}
+
+.latest-project img {
+    width: 350px;
+    height: 250px;
+    margin-bottom: 10px;
+}
+
+.latest-project h5 {
+    font-weight: 100;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.latest-project h4 {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+
+
+footer img {
+    width: 125px;
+}
+
+footer p {
+    color: #b3aeb5;
+    font-size: 12px;
+}
+
+footer {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+/* Ketik code Anda dibawah */
+.menu-icon {
+    color: white;
+    float: right;
+    font-size: 25px;
+    padding: 21px 0;
+    display: none;
+}
+
+
+/* media */
+/* Untuk Tablet */

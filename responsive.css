@@ -1,0 +1,159 @@
+@media all and (max-width: 1000px) {
+    header {
+        width: auto;
+    }
+
+    .top-main-right img {
+        height: 250px;
+    }
+
+    .top-wrapper h1 {
+        font-size: 32px;
+    }
+
+    .main-left img {
+        height: 300px;
+    }
+
+    .latest-project {
+        grid-template-columns: 50% 50%;
+        grid-column-gap: 10px;
+        grid-row-gap: 30px;
+    }
+
+
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+
+    /* header {
+        background-color: rgba(34, 49, 52, 0.9);
+    } */
+    .top-main {
+        display: grid;
+        grid-template-columns: 100%;
+    }
+
+    .top-main-right {
+        margin-top: -320px;
+        height: 150px;
+        text-align: center;
+        opacity: 0.4;
+        z-index: 1;
+    }
+    .top-main-left{
+    	z-index: 2;
+    }
+
+    .main-body {
+        display: grid;
+        grid-template-columns: 100%;
+        margin-bottom: 50px;
+        grid-row-gap: 20px;
+    }
+
+    .main-section{
+    	text-align: center;
+    }
+    .main-right h2 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .main-right p {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .our-special {
+        display: grid;
+        grid-template-columns: 49% 49%;
+        grid-column-gap: 10px;
+        text-align: center;
+    }
+
+    .our h2 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .our-special img {
+        height: 70px;
+        text-align: center;
+    }
+
+    .our-special h4 {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .our-special p {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .latest-project {
+        display: grid;
+        grid-template-columns: 100%;
+        text-align: center;
+    }
+
+    .latest-project img {
+        height: 200px;
+        width: 300px;
+    }
+
+    .title-project h2 {
+        font-size: 24px;
+    }
+
+    .title-project p {
+        font-size: 12px;
+    }
+
+    .latest-project h5 {
+        font-size: 14px;
+    }
+
+    .latest-project h4 {
+        font-size: 16px;
+    }
+
+    /* .latest-project .lesson {
+        width: 100%;
+    } */
+
+    .header-right {
+        display: none;
+    }
+
+    .btn {
+        width: 100%;
+    }
+
+    .heading h2 {
+        font-size: 20px;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+    .top-wrapper {
+        text-align: left;    
+    }
+
+    .top-wrapper h1 {
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .top-wrapper p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    footer {
+        text-align: center;
+    }
+}
