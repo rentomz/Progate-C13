@@ -23,6 +23,8 @@ div {
 
 body {
     font-family: "Montserrat";
+    overflow: hidden;
+    overflow-y: auto;
 }
 
 a {
