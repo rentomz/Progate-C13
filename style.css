@@ -355,6 +355,56 @@ footer {
     display: none;
 }
 
+.footer-grid {
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+.footer-left h1 {
+    margin-bottom: 20px;
+
+}
+
+.footer-left h5 {
+    margin-bottom: 20px;
+    color: #1c1c1c;
+
+}
+
+.footer-right {
+    display: grid;
+    grid-template-columns: 30% 30% 40%;
+}
+
+.footer-right h2 {
+    font-size: 16px;
+    color: #1c1c1c;
+    margin-bottom: 10px;
+}
+
+.footer-right p {
+    margin-bottom: 5px;
+}
+
+.footer-right a {
+    line-height: 24px;
+    font-size: 14px;
+    color: #757575;
+}
+
+.footer-right a:hover {
+
+    color: #1f90ff;
+}
+
+.footer-right .r-3 h2 {
+    margin-bottom: 20px;
+}
+
+.footer-right .r-3 p {
+    margin-bottom: 20px;
+}
+
 
 /* media */
 /* Untuk Tablet */
